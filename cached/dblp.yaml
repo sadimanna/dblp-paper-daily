@@ -49963,3 +49963,249 @@ federate%20venue%3ASOSP%3A:
   doi: 10.1145/1095810.1118583
   ee: https://doi.org/10.1145/1095810.1118583
   url: https://dblp.org/rec/conf/sosp/Jeanvoine05
+federated%20venue%3AWACV%3A:
+- author: Felix Wagner 0001, Wentian Xu, Pramit Saha, Ziyun Liang, Daniel Whitehouse,
+    David K. Menon, Virginia F. J. Newcombe, Natalie Voets, J. Alison Noble, Konstantinos
+    Kamnitsas
+  title: Feasibility of Federated Learning from Client Databases with Different Brain
+    Diseases and MRI Modalities.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/0001XSLWMNVNK25
+  doi: 10.1109/WACV61041.2025.00045
+  ee: https://doi.org/10.1109/WACV61041.2025.00045
+  url: https://dblp.org/rec/conf/wacv/0001XSLWMNVNK25
+- author: Niklas Babendererde, Haozhe Zhu, Moritz Fuchs, Jonathan Stieber, Anirban
+    Mukhopadhyay 0003
+  title: Federated-Continual Dynamic Segmentation of Histopathology Guided by Barlow
+    Continuity.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/BabendererdeZFS25
+  doi: 10.1109/WACV61041.2025.00369
+  ee: https://doi.org/10.1109/WACV61041.2025.00369
+  url: https://dblp.org/rec/conf/wacv/BabendererdeZFS25
+- author: Sourasekhar Banerjee, Debaditya Roy, Vigneshwaran Subbaraju, Monowar Bhuyan
+  title: Predicting Event Memorability Using Personalized Federated Learning.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/BanerjeeRSB25
+  doi: 10.1109/WACV61041.2025.00159
+  ee: https://doi.org/10.1109/WACV61041.2025.00159
+  url: https://dblp.org/rec/conf/wacv/BanerjeeRSB25
+- author: "Mat\xEDas Mendieta, Guangyu Sun 0004, Chen Chen 0001"
+  title: Navigating Heterogeneity and Privacy in One-Shot Federated Learning with
+    Diffusion Models.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/MendietaS025
+  doi: 10.1109/WACV61041.2025.00258
+  ee: https://doi.org/10.1109/WACV61041.2025.00258
+  url: https://dblp.org/rec/conf/wacv/MendietaS025
+- author: Junki Mori, Kosuke Kihara, Taiki Miyagawa, Akinori F. Ebihara, Isamu Teranishi,
+    Hisashi Kashima
+  title: 'Federated Source-Free Domain Adaptation for Classification: Weighted Cluster
+    Aggregation for Unlabeled Data.'
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/MoriKMETK25
+  doi: 10.1109/WACV61041.2025.00669
+  ee: https://doi.org/10.1109/WACV61041.2025.00669
+  url: https://dblp.org/rec/conf/wacv/MoriKMETK25
+- author: Giulia Rizzoli, Matteo Caligiuri, Donald Shenaj, Francesco Barbato, Pietro
+    Zanuttigh
+  title: 'When Cars Meet Drones: Hyperbolic Federated Learning for Source-Free Domain
+    Adaptation in Adverse Weather.'
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/RizzoliCSBZ25
+  doi: 10.1109/WACV61041.2025.00162
+  ee: https://doi.org/10.1109/WACV61041.2025.00162
+  url: https://dblp.org/rec/conf/wacv/RizzoliCSBZ25
+- author: Antoine P. Sanner, Jonathan Stieber, Nils F. Grauhan, Suam Kim, Marc A.
+    Brockmann, Ahmed E. Othman, Anirban Mukhopadhyay 0003
+  title: Federated Voxel Scene Graph for Intracranial Hemorrhage.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/SannerSGKBO025
+  doi: 10.1109/WACV61041.2025.00433
+  ee: https://doi.org/10.1109/WACV61041.2025.00433
+  url: https://dblp.org/rec/conf/wacv/SannerSGKBO025
+- author: Jiahao Xu, Zikai Zhang 0003, Rui Hu 0005
+  title: Achieving Byzantine-Resilient Federated Learning via Layer-Adaptive Sparsified
+    Model Aggregation.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/XuZH25
+  doi: 10.1109/WACV61041.2025.00154
+  ee: https://doi.org/10.1109/WACV61041.2025.00154
+  url: https://dblp.org/rec/conf/wacv/XuZH25
+- author: Jiahao Xu, Zikai Zhang 0003, Rui Hu 0005
+  title: Identify Backdoored Model in Federated Learning via Individual Unlearning.
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/XuZH25a
+  doi: 10.1109/WACV61041.2025.00773
+  ee: https://doi.org/10.1109/WACV61041.2025.00773
+  url: https://dblp.org/rec/conf/wacv/XuZH25a
+- author: Jianyi Zhang, Hao Yang 0018, Ang Li 0005, Xin Guo 0008, Pu Wang, Haiming
+    Wang 0002, Yiran Chen 0001, Hai Li 0001
+  title: 'MLLM-LLaVA-FL: Multimodal Large Language Model Assisted Federated Learning.'
+  venue: WACV
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/ZhangYLGW00025
+  doi: 10.1109/WACV61041.2025.00400
+  ee: https://doi.org/10.1109/WACV61041.2025.00400
+  url: https://dblp.org/rec/conf/wacv/ZhangYLGW00025
+- author: Ohad Amosy, Gal Eyal, Gal Chechik
+  title: Late to the party? On-demand unlabeled personalized federated learning.
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/AmosyEC24
+  doi: 10.1109/WACV57701.2024.00218
+  ee: https://doi.org/10.1109/WACV57701.2024.00218
+  url: https://dblp.org/rec/conf/wacv/AmosyEC24
+- author: Tajamul Ashraf, Fuzayil Bin Afzal Mir, Iqra Altaf Gillani
+  title: 'TransFed: A way to epitomize Focal Modulation using Transformer-based Federated
+    Learning.'
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/AshrafMG24
+  doi: 10.1109/WACV57701.2024.00061
+  ee: https://doi.org/10.1109/WACV57701.2024.00061
+  url: https://dblp.org/rec/conf/wacv/AshrafMG24
+- author: Shaltiel Eloul, Fran Silavong, Sanket Kamthe, Antonios Georgiadis, Sean
+    J. Moran
+  title: Mixing Gradients in Neural Networks as a Strategy to Enhance Privacy in Federated
+    Learning.
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/EloulSKGM24
+  doi: 10.1109/WACV57701.2024.00391
+  ee: https://doi.org/10.1109/WACV57701.2024.00391
+  url: https://dblp.org/rec/conf/wacv/EloulSKGM24
+- author: Jin Hyuk Lim, SeungBum Ha, Sung Whan Yoon
+  title: 'MetaVers: Meta-Learned Versatile Representations for Personalized Federated
+    Learning.'
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/LimHY24
+  doi: 10.1109/WACV57701.2024.00257
+  ee: https://doi.org/10.1109/WACV57701.2024.00257
+  url: https://dblp.org/rec/conf/wacv/LimHY24
+- author: Durga Sivasubramanian, Lokesh Nagalapatti, Rishabh K. Iyer, Ganesh Ramakrishnan
+  title: Gradient Coreset for Federated Learning.
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/Sivasubramanian24
+  doi: 10.1109/WACV57701.2024.00263
+  ee: https://doi.org/10.1109/WACV57701.2024.00263
+  url: https://dblp.org/rec/conf/wacv/Sivasubramanian24
+- author: Nguyen Anh Tu, Assanali Abu, Nartay Aikyn, Nursultan Makhanov, Min-Ho Lee,
+    Khiem Le-Huy, Kok-Seng Wong
+  title: 'FedFSLAR: A Federated Learning Framework for Few-shot Action Recognition.'
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/TuAAMLLW24
+  doi: 10.1109/WACVW60836.2024.00035
+  ee: https://doi.org/10.1109/WACVW60836.2024.00035
+  url: https://dblp.org/rec/conf/wacv/TuAAMLLW24
+- author: Feng Wang, Senem Velipasalar, Mustafa Cenk Gursoy
+  title: Maximum Knowledge Orthogonality Reconstruction with Gradients in Federated
+    Learning.
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/WangVG24
+  doi: 10.1109/WACV57701.2024.00384
+  ee: https://doi.org/10.1109/WACV57701.2024.00384
+  url: https://dblp.org/rec/conf/wacv/WangVG24
+- author: M. Yashwanth, Gaurav Kumar Nayak, Harsh Rangwani, Arya Singh, R. Venkatesh
+    Babu, Anirban Chakraborty 0001
+  title: Minimizing Layerwise Activation Norm Improves Generalization in Federated
+    Learning.
+  venue: WACV
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/YashwanthNRSB024
+  doi: 10.1109/WACV57701.2024.00228
+  ee: https://doi.org/10.1109/WACV57701.2024.00228
+  url: https://dblp.org/rec/conf/wacv/YashwanthNRSB024
+- author: Junming Chen, Meirui Jiang, Qi Dou 0001, Qifeng Chen
+  title: Federated Domain Generalization for Image Recognition via Cross-Client Style
+    Transfer.
+  venue: WACV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/ChenJDC23
+  doi: 10.1109/WACV56688.2023.00044
+  ee: https://doi.org/10.1109/WACV56688.2023.00044
+  url: https://dblp.org/rec/conf/wacv/ChenJDC23
+- author: Shreyansh Jain, Koteswar Rao Jerripothula
+  title: Federated Learning for Commercial Image Sources.
+  venue: WACV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/JainJ23
+  doi: 10.1109/WACV56688.2023.00647
+  ee: https://doi.org/10.1109/WACV56688.2023.00647
+  url: https://dblp.org/rec/conf/wacv/JainJ23
+- author: "Donald Shenaj, Eros Fan\xEC, Marco Toldo, Debora Caldarola, Antonio Tavera,\
+    \ Umberto Michieli, Marco Ciccone, Pietro Zanuttigh, Barbara Caputo"
+  title: 'Learning Across Domains and Devices: Style-Driven Source-Free Domain Adaptation
+    in Clustered Federated Learning.'
+  venue: WACV
+  year: '2023'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/ShenajFTCTMCZC23
+  doi: 10.1109/WACV56688.2023.00052
+  ee: https://doi.org/10.1109/WACV56688.2023.00052
+  url: https://dblp.org/rec/conf/wacv/ShenajFTCTMCZC23
+- author: Chun-Han Yao, Boqing Gong, Hang Qi, Yin Cui, Yukun Zhu, Ming-Hsuan Yang
+    0001
+  title: Federated Multi-Target Domain Adaptation.
+  venue: WACV
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: closed
+  key: conf/wacv/YaoGQCZ022
+  doi: 10.1109/WACV51458.2022.00115
+  ee: https://doi.org/10.1109/WACV51458.2022.00115
+  url: https://dblp.org/rec/conf/wacv/YaoGQCZ022
