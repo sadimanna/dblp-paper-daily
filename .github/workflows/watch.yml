@@ -108,10 +108,9 @@ jobs:
       # ============================================
       # Updated: Push work for awesome-topics
       # ============================================
-      - name: Update README and Push (awesome-topics)
+      - name: Push (awesome-topics)
         working-directory: awesome-topics
         run: |
-          python main.py merge_md_yaml
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data.yaml README.md
