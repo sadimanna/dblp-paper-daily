@@ -18,6 +18,7 @@ class Scaffold:
         pass
 
     def run(self, env: str = "dev", cfg: str = "./../config.yaml"): #, yaml_path=None):
+        cfg_path = cfg
         cfg = init(cfg_path=cfg)
 
         logger.info(f"running with env: {env} and cfg: {cfg}")
@@ -29,6 +30,14 @@ class Scaffold:
         dblp_cache = yaml.safe_load(open(cache_path, "r")) if cache_path.exists() else {}
         # logger.info(f"dblp cache: {dblp_cache}")
         dblp_new_cache = {}
+
+        BASE_DIR = Path(__file__).resolve().parent.parent
+        # print(BASE_DIR, BASE_DIR.parent)
+        AWESOME_YAML = BASE_DIR.parent / "awesome-topics" / "data.yaml"
+        if not AWESOME_YAML.parent.exists():
+            raise RuntimeError(
+                f"awesome-topics repo not found at {AWESOME_YAML.parent}"
+            )
 
         yaml_path = AWESOME_YAML #if yaml_path else None
 

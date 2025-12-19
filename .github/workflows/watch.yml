@@ -66,8 +66,12 @@ jobs:
       # ============================================
       - name: Setup GIT user
         uses: fregante/setup-git-user@v1
+        with:
+          # Tell the action where the .git folder actually is
+          working-directory: paper-tracker
 
       - name: Push done work
+        working-directory: paper-tracker
         run: |
           git diff --exit-code || git commit -am "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}"
           git push --force origin main
