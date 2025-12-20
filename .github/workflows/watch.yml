@@ -16,6 +16,7 @@ jobs:
       TZ: "Asia/Kolkata"
       RUN_ENV: "prod" # within ['prod', 'dev']
       GH_USER: ${{ github.repository_owner }}
+      PYTHONDONTWRITEBYTECODE: 1
     steps:
       # ============================================
       # TODO [√] 检查工作分支及 Workflows 运行环境
@@ -86,7 +87,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data _configs cached
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}" && git push --force origin main)
+          git diff --staged --quiet || (git commit -m "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}" && git push --force origin main)
 
       # ... intermediate steps ...
 
