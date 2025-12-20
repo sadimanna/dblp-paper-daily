@@ -14,6 +14,8 @@ dblp:
     - "federated%20streamid%3Ajournals%2Fml%3A"
     - "federated%20streamid%3Ajournals%2Fjmlr%3A"
     - "federated%20streamid%3Ajournals%2Fpami%3A"
+    - "federated%20streamid%3Ajournals%2Fnnls%3A"
+    - "federated%20streamid%3Ajournals%2Ftai%3A"
     - "federated%20venue%3AKDD%3A"
     - "federated%20venue%3AWSDM%3A"
     - "federated%20streamid%3Aconf%2Fsp%3A"
