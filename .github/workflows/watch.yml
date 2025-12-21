@@ -24,7 +24,7 @@ jobs:
       - name: Checkout dblp-paper-daily repository
         uses: actions/checkout@v3
         with:
-          path: paper-tracker
+          path: dblp-paper-daily
       # 2. Checkout awesome-topics
       - name: Checkout awesome-topics
         uses: actions/checkout@v4
@@ -45,23 +45,20 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f paper-tracker/requirements.txt ]; then pip install -r paper-tracker/requirements.txt; fi
+          if [ -f dblp-paper-daily/requirements.txt ]; then pip install -r dblp-paper-daily/requirements.txt; fi
           if [ -f awesome-topics/requirements.txt ]; then pip install -r awesome-topics/requirements.txt; fi
       # ============================================
       # TODO [√] 测试 Scaffold 脚手架指令
       # ============================================
       - name: Run dblp watcher
         run: |
-          cd paper-tracker/src
+          cd dblp-paper-daily/src
           python main.py run --env=${{ env.RUN_ENV }}
 
       - name: Setup var
         id: vars
         run: |
-          content="$(cat <<'EOF'
-            ${{ env.MSG }}
-            EOF
-            )"
+          content=${{ env.MSG }}
           content="${content//'%'/'%25'}"
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
@@ -73,19 +70,19 @@ jobs:
       #   uses: fregante/setup-git-user@v1
       #   with:
       #     # Tell the action where the .git folder actually is
-      #     working-directory: paper-tracker
+      #     working-directory: dblp-paper-daily
 
       # - name: Push done work
-      #   working-directory: paper-tracker
+      #   working-directory: dblp-paper-daily
       #   run: |
       #     git diff --exit-code || git commit -am "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}"
       #     git push --force origin main
 
       # ============================================
-      # Updated: Push work for paper-tracker
+      # Updated: Push work for dblp-paper-daily
       # ============================================
-      - name: Push done work (paper-tracker)
-        working-directory: paper-tracker
+      - name: Push done work (dblp-paper-daily)
+        working-directory: dblp-paper-daily
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
