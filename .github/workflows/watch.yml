@@ -63,20 +63,6 @@ jobs:
           content="${content//$'\n'/'%0A'}"
           content="${content//$'\r'/'%0D'}"
           echo "content=$content" >> "$GITHUB_OUTPUT"
-      # ============================================
-      # TODO [√] 更新仓库数据
-      # ============================================
-      # - name: Setup GIT user
-      #   uses: fregante/setup-git-user@v1
-      #   with:
-      #     # Tell the action where the .git folder actually is
-      #     working-directory: dblp-paper-daily
-
-      # - name: Push done work
-      #   working-directory: dblp-paper-daily
-      #   run: |
-      #     git diff --exit-code || git commit -am "Automated deployment @ $(date '+%Y-%m-%d %H:%M:%S') ${{ env.TZ }}"
-      #     git push --force origin main
 
       # ============================================
       # Updated: Push work for dblp-paper-daily
@@ -95,10 +81,9 @@ jobs:
         if: ${{ env.MSG != '' }}
         uses: JasonEtco/create-an-issue@v2
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MSG: ${{ steps.vars.outputs.content }}
         with:
-          filename: .github/issue-template.md
+          filename: dblp-paper-daily/.github/issue-template.md
       
       # 6. Regenerate README
       - name: Update README
