@@ -1,0 +1,144 @@
+section:
+- title: IJCAI
+- title: AAAI
+IJCAI:
+  '2025':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: 'Contrastive Unlearning: A Contrastive Approach to Machine Unlearning.'
+      venue: IJCAI
+      year: 2025
+      link: https://doi.org/10.24963/ijcai.2025/830
+    - title: How to Make Reproducible Research in Machine Unlearning with ERASURE.
+      venue: IJCAI
+      year: 2025
+      link: https://doi.org/10.24963/ijcai.2025/1255
+    - title: Zero-Shot Machine Unlearning with Proxy Adversarial Data Generation.
+      venue: IJCAI
+      year: 2025
+      link: https://doi.org/10.24963/ijcai.2025/39
+  '2024':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: Machine Unlearning via Null Space Calibration.
+      venue: IJCAI
+      year: 2024
+      link: https://www.ijcai.org/proceedings/2024/40
+    - title: 'Machine Unlearning: Challenges in Data Quality and Access.'
+      venue: IJCAI
+      year: 2024
+      link: https://www.ijcai.org/proceedings/2024/987
+    - title: 'Unlearning during Learning: An Efficient Federated Machine Unlearning
+        Method.'
+      venue: IJCAI
+      year: 2024
+      link: https://www.ijcai.org/proceedings/2024/446
+  '2022':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: 'ARCANE: An Efficient Architecture for Exact Machine Unlearning.'
+      venue: IJCAI
+      year: 2022
+      link: https://doi.org/10.24963/ijcai.2022/556
+AAAI:
+  '2025':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: 'Distribution-Level Feature Distancing for Machine Unlearning: Towards
+        a Better Trade-off Between Model Utility and Forgetting.'
+      venue: AAAI
+      year: 2025
+      link: https://doi.org/10.1609/aaai.v39i3.32256
+    - title: 'Forget to Flourish: Leveraging Machine-Unlearning on Pretrained Language
+        Models for Privacy Leakage.'
+      venue: AAAI
+      year: 2025
+      link: https://doi.org/10.1609/aaai.v39i19.34218
+    - title: 'SAP: Corrective Machine Unlearning with Scaled Activation Projection
+        for Label Noise Robustness.'
+      venue: AAAI
+      year: 2025
+      link: https://doi.org/10.1609/aaai.v39i17.33972
+    - title: 'Selective Forgetting: Advancing Machine Unlearning Techniques and Evaluation
+        in Language Models.'
+      venue: AAAI
+      year: 2025
+      link: https://doi.org/10.1609/aaai.v39i1.32068
+  '2024':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: Backdoor Attacks via Machine Unlearning.
+      venue: AAAI
+      year: 2024
+      link: https://doi.org/10.1609/aaai.v38i13.29321
+    - title: Fast Machine Unlearning without Retraining through Selective Synaptic
+        Dampening.
+      venue: AAAI
+      year: 2024
+      link: https://doi.org/10.1609/aaai.v38i11.29092
+    - title: 'Layer Attack Unlearning: Fast and Accurate Machine Unlearning via Layer
+        Level Attack and Knowledge Distillation.'
+      venue: AAAI
+      year: 2024
+      link: https://doi.org/10.1609/aaai.v38i19.30118
+  '2022':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: 'Hard to Forget: Poisoning Attacks on Certified Machine Unlearning.'
+      venue: AAAI
+      year: 2022
+      link: https://doi.org/10.1609/aaai.v36i7.20736

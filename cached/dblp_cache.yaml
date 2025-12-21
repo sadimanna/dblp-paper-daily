@@ -27083,3 +27083,176 @@ federated%20venue%3AWACV%3A:
   doi: 10.1109/WACV51458.2022.00115
   ee: https://doi.org/10.1109/WACV51458.2022.00115
   url: https://dblp.org/rec/conf/wacv/YaoGQCZ022
+federated%20machine%20unlearning%20venue%3AIJCAI%3A:
+- author: Hanlin Gu, Gongxi Zhu, Jie Zhang 0078, Xinyuan Zhao, Yuxing Han 0001, Lixin
+    Fan, Qiang Yang 0001
+  title: 'Unlearning during Learning: An Efficient Federated Machine Unlearning Method.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/GuZ0Z0F024
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/446
+  url: https://dblp.org/rec/conf/ijcai/GuZ0Z0F024
+machine%20unlearning%20venue%3AIJCAI%3A:
+- author: Hong-Kyu Lee, Qiuchen Zhang, Carl Yang 0001, Jian Lou 0001, Li Xiong 0001
+  title: 'Contrastive Unlearning: A Contrastive Approach to Machine Unlearning.'
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/LeeZ00025
+  doi: 10.24963/IJCAI.2025/830
+  ee: https://doi.org/10.24963/ijcai.2025/830
+  url: https://dblp.org/rec/conf/ijcai/LeeZ00025
+- author: Hanlin Gu, Gongxi Zhu, Jie Zhang 0078, Xinyuan Zhao, Yuxing Han 0001, Lixin
+    Fan, Qiang Yang 0001
+  title: 'Unlearning during Learning: An Efficient Federated Machine Unlearning Method.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/GuZ0Z0F024
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/446
+  url: https://dblp.org/rec/conf/ijcai/GuZ0Z0F024
+- author: Huiqiang Chen, Tianqing Zhu, Xin Yu 0002, Wanlei Zhou 0001
+  title: Zero-Shot Machine Unlearning with Proxy Adversarial Data Generation.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenZ0025
+  doi: 10.24963/IJCAI.2025/39
+  ee: https://doi.org/10.24963/ijcai.2025/39
+  url: https://dblp.org/rec/conf/ijcai/ChenZ0025
+- author: Andrea D&apos;Angelo, Claudio Savelli, Gabriele Tagliente, Flavio Giobergia,
+    Elena Baralis, Giovanni Stilo
+  title: How to Make Reproducible Research in Machine Unlearning with ERASURE.
+  venue: IJCAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/DAngeloSTGBS25
+  doi: 10.24963/IJCAI.2025/1255
+  ee: https://doi.org/10.24963/ijcai.2025/1255
+  url: https://dblp.org/rec/conf/ijcai/DAngeloSTGBS25
+- author: Huiqiang Chen, Tianqing Zhu, Xin Yu 0002, Wanlei Zhou 0001
+  title: Machine Unlearning via Null Space Calibration.
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/ChenZ0024
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/40
+  url: https://dblp.org/rec/conf/ijcai/ChenZ0024
+- author: Miao Xu 0001
+  title: 'Machine Unlearning: Challenges in Data Quality and Access.'
+  venue: IJCAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/Xu24
+  doi: ''
+  ee: https://www.ijcai.org/proceedings/2024/987
+  url: https://dblp.org/rec/conf/ijcai/Xu24
+- author: Haonan Yan, Xiaoguang Li, Ziyao Guo, Hui Li 0006, Fenghua Li, Xiaodong Lin
+    0001
+  title: 'ARCANE: An Efficient Architecture for Exact Machine Unlearning.'
+  venue: IJCAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/ijcai/YanLG0L022
+  doi: 10.24963/IJCAI.2022/556
+  ee: https://doi.org/10.24963/ijcai.2022/556
+  url: https://dblp.org/rec/conf/ijcai/YanLG0L022
+machine%20unlearning%20venue%3AAAAI%3A:
+- author: Hyunjune Kim, Sangyong Lee, Simon S. Woo
+  title: 'Layer Attack Unlearning: Fast and Accurate Machine Unlearning via Layer
+    Level Attack and Knowledge Distillation.'
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/KimLW24
+  doi: 10.1609/AAAI.V38I19.30118
+  ee: https://doi.org/10.1609/aaai.v38i19.30118
+  url: https://dblp.org/rec/conf/aaai/KimLW24
+- author: Dasol Choi, Dongbin Na
+  title: 'Distribution-Level Feature Distancing for Machine Unlearning: Towards a
+    Better Trade-off Between Model Utility and Forgetting.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/ChoiN25
+  doi: 10.1609/AAAI.V39I3.32256
+  ee: https://doi.org/10.1609/aaai.v39i3.32256
+  url: https://dblp.org/rec/conf/aaai/ChoiN25
+- author: Sangamesh Kodge, Deepak Ravikumar, Gobinda Saha, Kaushik Roy 0001
+  title: 'SAP: Corrective Machine Unlearning with Scaled Activation Projection for
+    Label Noise Robustness.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/KodgeRS025
+  doi: 10.1609/AAAI.V39I17.33972
+  ee: https://doi.org/10.1609/aaai.v39i17.33972
+  url: https://dblp.org/rec/conf/aaai/KodgeRS025
+- author: Md. Rafi Ur Rashid, Jing Liu 0009, Toshiaki Koike-Akino, Ye Wang 0001, Shagufta
+    Mehnaz
+  title: 'Forget to Flourish: Leveraging Machine-Unlearning on Pretrained Language
+    Models for Privacy Leakage.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/RashidLKWM25
+  doi: 10.1609/AAAI.V39I19.34218
+  ee: https://doi.org/10.1609/aaai.v39i19.34218
+  url: https://dblp.org/rec/conf/aaai/RashidLKWM25
+- author: Lingzhi Wang 0001, Xingshan Zeng, Jinsong Guo, Kam-Fai Wong, Georg Gottlob
+  title: 'Selective Forgetting: Advancing Machine Unlearning Techniques and Evaluation
+    in Language Models.'
+  venue: AAAI
+  year: '2025'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/WangZGWG25
+  doi: 10.1609/AAAI.V39I1.32068
+  ee: https://doi.org/10.1609/aaai.v39i1.32068
+  url: https://dblp.org/rec/conf/aaai/WangZGWG25
+- author: Jack Foster, Stefan Schoepf, Alexandra Brintrup
+  title: Fast Machine Unlearning without Retraining through Selective Synaptic Dampening.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/FosterSB24
+  doi: 10.1609/AAAI.V38I11.29092
+  ee: https://doi.org/10.1609/aaai.v38i11.29092
+  url: https://dblp.org/rec/conf/aaai/FosterSB24
+- author: Zihao Liu, Tianhao Wang 0001, Mengdi Huai, Chenglin Miao
+  title: Backdoor Attacks via Machine Unlearning.
+  venue: AAAI
+  year: '2024'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/LiuWHM24
+  doi: 10.1609/AAAI.V38I13.29321
+  ee: https://doi.org/10.1609/aaai.v38i13.29321
+  url: https://dblp.org/rec/conf/aaai/LiuWHM24
+- author: Neil G. Marchant, Benjamin I. P. Rubinstein, Scott Alfeld
+  title: 'Hard to Forget: Poisoning Attacks on Certified Machine Unlearning.'
+  venue: AAAI
+  year: '2022'
+  type: Conference and Workshop Papers
+  access: open
+  key: conf/aaai/MarchantRA22
+  doi: 10.1609/AAAI.V36I7.20736
+  ee: https://doi.org/10.1609/aaai.v36i7.20736
+  url: https://dblp.org/rec/conf/aaai/MarchantRA22
