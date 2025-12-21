@@ -31,7 +31,7 @@ jobs:
         with:
           repository: sadimanna/awesome-topics
           path: awesome-topics
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.AWESOME_TOPICS_TOKEN }}
       # ============================================
       # TODO [√] 创建 Python3.6+ 编译环境
       # ============================================
@@ -106,21 +106,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs _data README.md
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update papers from DBLP" && git push)
-      # - name: Commit changes
-      #   run: |
-      #     cd awesome-topics
-      #     git config user.name "github-actions"
-      #     git config user.email "github-actions@github.com"
-      #     git add data.yaml README.md
-      #     git commit -m "Auto-update papers from DBLP" || exit 0
-      #     git push
-
-      # - name: Get date time
-      #   id: date
-      #   run: echo "::set-output name=date::$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-
-      # - name: Commit Updated
-      #   uses: stefanzweifel/git-auto-commit-action@v4
-      #   with:
-      #     commit_message: "auto update @ ${{ steps.date.outputs.date }} ${{ env.TZ }}"
+          git diff --staged --quiet || (git commit -m "Auto-update papers from DBLP" && git push)
