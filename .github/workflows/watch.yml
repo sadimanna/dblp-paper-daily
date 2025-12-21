@@ -82,6 +82,7 @@ jobs:
         uses: JasonEtco/create-an-issue@v2
         env:
           MSG: ${{ steps.vars.outputs.content }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           filename: dblp-paper-daily/.github/issue-template.md
       
