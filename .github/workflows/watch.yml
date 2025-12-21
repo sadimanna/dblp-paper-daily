@@ -82,7 +82,7 @@ jobs:
       # ... intermediate steps ...
 
       - name: Create an issue for new papers
-        if: ${{ env.MSG != '' }}
+        if: ${{ steps.vars.outputs.content.raw != '' }}
         uses: JasonEtco/create-an-issue@v2
         env:
           MSG: ${{ steps.vars.outputs.content.raw }}
