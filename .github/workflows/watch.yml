@@ -2,8 +2,8 @@ name: Run DBLP Watch
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
+  # schedule:
+  #   - cron: '0 0 * * *'
   push:
     branches: [main]
 
@@ -107,3 +107,11 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs _data README.md
           git diff --staged --quiet || (git commit -m "Auto-update papers from DBLP" && git push)
+
+      - name: Trigger awesome-topics workflow
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.AWESOME_TOPICS_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/sadimanna/awesome-topics/dispatches \
+            -d '{"event_type":"dblp_update"}'
