@@ -1,0 +1,20 @@
+section:
+- title: IJCAI
+IJCAI:
+  '2024':
+    header:
+      title: Title
+      venue: ' Venue'
+      year: ' Year '
+      link: Link
+    length:
+      title: 60
+      venue: 53
+      year: 4
+      link: 60
+    body:
+    - title: 'Unlearning during Learning: An Efficient Federated Machine Unlearning
+        Method.'
+      venue: IJCAI
+      year: 2024
+      link: https://www.ijcai.org/proceedings/2024/446
